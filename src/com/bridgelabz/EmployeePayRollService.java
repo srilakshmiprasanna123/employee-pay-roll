@@ -21,7 +21,7 @@ public class EmployeePayRollService {
 
     }
 
-    private void readEmployeeData(Scanner scanner) {
+    void readEmployeeData(Scanner scanner) {
         System.out.println("Enter your name : ");
         String name = scanner.nextLine();
         System.out.println("Enter your ID : ");
@@ -31,7 +31,7 @@ public class EmployeePayRollService {
         EmployeePayrollData empData = new EmployeePayrollData(id, salary, name);
         employeePayrollList.add(empData);
     }
-    private void write() {
+    void write() {
         System.out.println("Given Employee Data is : " + employeePayrollList);
     }
 }

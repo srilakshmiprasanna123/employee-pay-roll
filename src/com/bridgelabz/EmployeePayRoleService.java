@@ -4,15 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class EmployeePayRollService {
+public class EmployeePayRoleService {
 
     private List<EmployeePlayRoleData> employeePayrollList;
 
-    public EmployeePayRollService() {
+    public EmployeePayRoleService() {
 
     }
 
-    public EmployeePayRollService(List<EmployeePlayRoleData> employeePayrollList) {
+    public EmployeePayRoleService(List<EmployeePlayRoleData> employeePayrollList) {
 
         this.employeePayrollList = employeePayrollList;
     }

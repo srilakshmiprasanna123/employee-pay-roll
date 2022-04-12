@@ -4,15 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class EmployeePayrollService {
+public class EmployeePayRollService {
 
     private List<EmployeePlayRoleData> employeePayrollList;
 
-    public EmployeePayrollService() {
+    public EmployeePayRollService() {
 
     }
 
-    public EmployeePayrollService(List<EmployeePlayRoleData> employeePayrollList) {
+    public EmployeePayRollService(List<EmployeePlayRoleData> employeePayrollList) {
 
         this.employeePayrollList = employeePayrollList;
     }
@@ -45,7 +45,7 @@ public class EmployeePayrollService {
 
         ArrayList<EmployeePlayRoleData> employeePayrollList = new ArrayList<EmployeePlayRoleData>();
 
-        EmployeePayrollService employeePayrollService = new EmployeePayrollService(employeePayrollList);
+        EmployeePayRollService employeePayrollService = new EmployeePayRollService();
 
         employeePayrollService.readEmployeeData(SC);
 
